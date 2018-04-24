@@ -25,19 +25,3 @@ recorded in the log line - the recorded timestamps are in the past and therefore
 You can run the alerter tests as follows:
 
     python AlerterTest.py
-
-PLEASE EMAIL ME AT "polsar@gmail.com" IF YOU HAVE TROUBLE RUNNING THE PROGRAM IN ANY WAY :)
-
-
-POTENTIAL DESIGN IMPROVEMENTS
------------------------------
-I ran out of time to satisfy the requirement to show the number of hits that generates a high-traffic alert. The alert is still
-generated properly, but it doesn't show the exact number of hits (only that it is greater than or equal to the minimum required
-to trigger the alert). So that would be the first thing I would implement.
-
-I'd like to add more statistics to the output such as top remote IP addresses.
-
-Adding the ability to parse Extended Log Format.
-
-Instead of having the program run in a terminal, it would be cool to export the stats in an HTTP server and display all information
-on a web page that automatically updates. A big project on its own! :)
